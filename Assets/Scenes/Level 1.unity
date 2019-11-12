@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 530066774}
   - component: {fileID: 530066773}
   m_Layer: 0
-  m_Name: Left Collider
+  m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,6 +652,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddle1: {fileID: 906020203}
+  xPush: 2
+  yPush: 15
 --- !u!1 &593800641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,7 +1059,7 @@ GameObject:
   - component: {fileID: 1586664056}
   - component: {fileID: 1586664055}
   m_Layer: 0
-  m_Name: Right Collider
+  m_Name: Right Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1373,7 +1375,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 16.000938, y: 1}
+  m_Size: {x: 20, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &2016257806
 MonoBehaviour:
