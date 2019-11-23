@@ -739,9 +739,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
         type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 906020203}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c92b169c75a85e4494f245b85cbafef, type: 3}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: d609a33ae0f4c3548bfe1441067caf30, type: 3}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e29c610203bfd3b46b7a6909370b1599, type: 3}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e8f64bc470b67f41a59f5b0a1cc0759, type: 3}
+    - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 817e7f28a5690a94598fd9f45a8da757, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc8881f473ad5c041bb8be42d75bfc5f, type: 3}
 --- !u!1 &7553009440125033943 stripped
@@ -760,7 +790,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d609a33ae0f4c3548bfe1441067caf30, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
