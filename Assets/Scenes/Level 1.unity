@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &649662665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7951839500039192086, guid: 4c401d163c234814fb1eef8fecd6c3ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 7951839500470611679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649662666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649662665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c3cfd1a2964024686d0b615cf7ff10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakableBlocks: 0
 --- !u!114 &906020203 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8594521933211110830, guid: eccc6e12c42060847ab8d0f15383102c,
