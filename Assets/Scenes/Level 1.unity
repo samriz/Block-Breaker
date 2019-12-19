@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -120,25 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &649662665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7951839500039192086, guid: 4c401d163c234814fb1eef8fecd6c3ee,
-    type: 3}
-  m_PrefabInstance: {fileID: 7951839500470611679}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &649662666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649662665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49c3cfd1a2964024686d0b615cf7ff10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakableBlocks: 0
 --- !u!114 &906020203 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8594521933211110830, guid: eccc6e12c42060847ab8d0f15383102c,
@@ -296,11 +278,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2279757479378977021, guid: 8a145d4ccf3762748b2f8394ae6e55bc,
-        type: 3}
-      propertyPath: m_Name
-      value: Game Camera
-      objectReference: {fileID: 0}
     - target: {fileID: 2279757479378976769, guid: 8a145d4ccf3762748b2f8394ae6e55bc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -356,6 +333,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2279757479378977021, guid: 8a145d4ccf3762748b2f8394ae6e55bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Game Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a145d4ccf3762748b2f8394ae6e55bc, type: 3}
 --- !u!1001 &3893699401377795743
@@ -365,11 +347,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3893699401929122654, guid: f7890a7ed623d3e48ac3688cf6bf3120,
+    - target: {fileID: 3893699400765504141, guid: f7890a7ed623d3e48ac3688cf6bf3120,
         type: 3}
-      propertyPath: m_Name
-      value: Game Canvas
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1500707589}
     - target: {fileID: 3893699401929122650, guid: f7890a7ed623d3e48ac3688cf6bf3120,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -475,11 +457,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3893699400765504141, guid: f7890a7ed623d3e48ac3688cf6bf3120,
+    - target: {fileID: 3893699401929122654, guid: f7890a7ed623d3e48ac3688cf6bf3120,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1500707589}
+      propertyPath: m_Name
+      value: Game Canvas
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7890a7ed623d3e48ac3688cf6bf3120, type: 3}
 --- !u!1001 &4470625878619018501
@@ -701,11 +683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7553009439581774675, guid: cc8881f473ad5c041bb8be42d75bfc5f,
-        type: 3}
-      propertyPath: m_Name
-      value: Ball
-      objectReference: {fileID: 0}
     - target: {fileID: 7553009439581774673, guid: cc8881f473ad5c041bb8be42d75bfc5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -761,6 +738,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7553009439581774675, guid: cc8881f473ad5c041bb8be42d75bfc5f,
+        type: 3}
+      propertyPath: m_Name
+      value: Ball
+      objectReference: {fileID: 0}
     - target: {fileID: 7553009439581774684, guid: cc8881f473ad5c041bb8be42d75bfc5f,
         type: 3}
       propertyPath: paddle1
@@ -775,11 +757,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7951839500039192086, guid: 4c401d163c234814fb1eef8fecd6c3ee,
-        type: 3}
-      propertyPath: m_Name
-      value: Level
-      objectReference: {fileID: 0}
     - target: {fileID: 7951839500039192085, guid: 4c401d163c234814fb1eef8fecd6c3ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -834,6 +811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951839500039192086, guid: 4c401d163c234814fb1eef8fecd6c3ee,
+        type: 3}
+      propertyPath: m_Name
+      value: Level
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c401d163c234814fb1eef8fecd6c3ee, type: 3}
